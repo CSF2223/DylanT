@@ -5,7 +5,7 @@ primary: #512C73
 secondary: #361356
 tertiary: #6F4D8F
 accent: #9277AC
-vegasGold: #c5b358
+Gold: #FFD700
 white: #fff
 black: #000  
 */
@@ -18,9 +18,9 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    background-color: #200439;
+    background-color: #000;
     color: #fff;
 }
 
@@ -29,10 +29,12 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding-left: 10rem;
+    padding-top: 1rem;
 }
 
 .heroImage {
-    padding: 2rem;
+    padding-right: 15rem;
 }
 
 .heroImage img {
@@ -40,27 +42,28 @@ body {
     box-shadow: 10px 10px #000;
     width: 100%;
     height: auto;
+    border-color: #FFD700;
 }
 
 .heroText {
     font-size: 0.8rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
 }
 
 .heroName {
-    color: #c5b358;
+    color: #FFD700;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
 
 .heroTextTop {
-    padding: 1rem;
+    padding: 0rem;
 }
 
 .heroTextBottom {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .heroButton{
@@ -80,8 +83,8 @@ body {
 }
 
 .button:hover {
-    background-color: #361356;
-    color: #c5b358;
+    background-color: #282A3A;
+    color: #FFD700;
     transform: scale(1.5);
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -145,7 +148,7 @@ body {
 
 footer {
     text-align: center;
-    color: #c5b358;
+    color: #FFD700;
     margin: 10rem 0;
     border-top: 1px solid #9277AC;
 }
@@ -154,17 +157,30 @@ footer {
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
-    color: #c5b358;
+    color: #FFD700;
     display: block;
 }
 
-.filler {
+.aboutMeTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.aboutMeText {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
-    margin: 0;
-    height: 80vh;
+    margin-left: 350px;
+    font-size: 2rem;
+    margin-right: 350px;
+    background-color: #FFF;
+    border-radius: 40px;
+    color: #000;
+    font-weight: bold
 }
 
 
