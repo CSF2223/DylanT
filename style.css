@@ -34,20 +34,19 @@ body {
 }
 
 .heroImage {
-    padding-right: 15rem;
+    padding-left: 0rem;
+    border: 10px;
 }
 
 .heroImage img {
-    border-radius: 6rem;
-    box-shadow: 10px 10px #000;
-    width: 100%;
+    border-radius: 5rem;
+    box-shadow: 5px 5px #FDD700;
+    width: 30%;
     height: auto;
-    border-color: #FFD700;
 }
 
 .heroText {
     font-size: 0.8rem;
-    padding-bottom: 0rem;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -174,14 +173,18 @@ footer {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 350px;
-    font-size: 2rem;
-    margin-right: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 1.6rem;
+    margin-right: 100px;
     background-color: #FFF;
     border-radius: 40px;
     color: #000;
     font-weight: bold
 }
+
+.filler {
+    text-align: center;
 
 
 @media (min-width: 800px) {
