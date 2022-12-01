@@ -29,7 +29,6 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding-left: 10rem;
     padding-top: 1rem;
 }
 
@@ -41,8 +40,8 @@ body {
 .heroImage img {
     border-radius: 5rem;
     box-shadow: 5px 5px #FDD700;
-    width: 30%;
-    height: auto;
+    width: 100%;
+    height: 1000px;
 }
 
 .heroText {
@@ -173,10 +172,10 @@ footer {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 175px;
     margin-top: 50px;
     font-size: 1.6rem;
-    margin-right: 100px;
+    margin-right: 175px;
     background-color: #FFF;
     border-radius: 40px;
     color: #000;
@@ -185,6 +184,7 @@ footer {
 
 .filler {
     text-align: center;
+}
 
 
 @media (min-width: 800px) {
